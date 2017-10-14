@@ -1,0 +1,270 @@
+body {
+	font-family: "Maven Pro", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	margin: 0;
+	line-height: 160%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+	margin:  0;
+	padding: 0;
+}
+.header {
+	background: #e6e6e6;
+	width: 100%;
+	max-width: 1366px;
+	position: relative;
+	min-height: 32px;
+}
+
+.clear {
+	clear: both;
+}
+
+ul.left, ul.right {
+	list-style: none;
+} 
+
+ul.left li {
+	float: left;
+	padding: 7px 15px;
+}
+
+ul.left li:first-child {
+	cursor: pointer;
+}
+
+ul.left li:first-child:hover {
+	background: #bbb;
+}
+
+ul.right li {
+	float: right;
+	padding: 7px 15px;
+}
+
+ul.right li:nth-child(1):hover {
+	background: #F44336;
+	color: #fff;
+}
+
+ul.right li:not(:first-of-type):hover {
+	background: #bbb;
+}
+.sidebar {
+	width: 320px;
+	float: left;
+	display: inline-block;
+	background: #f2f2f2;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.hamburger {
+	cursor: pointer;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.bar {
+	border: .5px solid #000;
+	display: block;
+    margin: 6px 0;
+}
+
+.bar .last-child {
+	margin-bottom: 0;
+}
+
+.hamburger:hover {
+	background: #e6e6e6;
+}
+
+.form {
+	position: relative;
+	display: block;
+}
+
+input[type="search"] {
+	background: #f7f7f7;
+	padding: 6px;
+	border: 2px solid #666;
+	width: 296px;
+	margin: 15px 12px 10px;
+	position: relative;
+}
+
+.fa-search {
+	position: absolute;
+	right: 18px;
+	top: 22px;
+	color: #aaa;
+}
+input[type="search"]:focus {
+	background: #fff;
+	outline: none;
+}
+
+.side-controls {
+	list-style: none;
+}
+
+.side-controls li {
+	width: 100%;
+	max-width: 320px;
+	box-sizing: border-box;
+	display: block;
+	padding: 10px 0;
+	padding-left: 15px;
+}
+
+.side-controls li:hover {
+	background: #e6e6e6;
+}
+
+.side-controls .current {
+	border-left: 4px solid #2992cc;
+	color: #2992cc;
+}
+
+.side-controls .current > a {
+	color: #2992cc;
+}
+
+.divider {
+	border-bottom: 1px solid #c2c2c2;
+	margin: 15px 0;
+	margin-left: 15px;
+	width: 296px;
+}
+
+.side-controls .single {
+	text-decoration: none;
+	color: #000;
+	padding: 10px 0;
+}
+
+.side-controls span.fa {
+	margin-right: 10px;
+}
+
+.fa-gear {
+	margin-left: 158px;
+	padding: 4px 0;
+}
+
+.content {
+	box-sizing: border-box;
+	width: 1029px;
+	float: right;
+	display: inline-block;
+	padding: 24px 36px 0;
+}
+
+.content .title h1 {
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+.settings {
+	list-style: none;
+	margin: 30px 0;
+	height: 25px;
+}
+
+.settings li {
+	float: left;
+}
+
+.settings li:not(:first-of-type) {
+	margin-left: 25px;
+}
+
+.song-lists .list {
+	list-style: none;
+}
+.list {
+	box-sizing: border-box;
+	height: 50px;
+	padding: 12px 0;
+	padding-left: 20px;
+}
+.list:nth-child(odd) {
+	background: #f2f2f2;
+}
+.list .song-artist, 
+.year, .title,
+.album-name, .duration {
+	color: #666666;
+}
+.list:hover {
+	background: #ccc;
+}
+.song-lists .current {
+	background: #3498cf;
+}
+
+ul.current li, 
+ul.current li.song-artist {
+	color: #fff;
+}
+ .list li {
+ 	float: left;
+ 	display: inline-block;
+ }
+
+ul.list li.title {
+ 	width: 310px;
+}
+
+ul.list li.album-name {
+	width: 230px;
+}
+ul.list li.song-artist {
+	width: 230px;
+}
+ul.list li.year {
+	width: 97px;
+}
+ul.list li.duration {
+	text-align: center;
+}
+
+.main-footer {
+	background: #3498cf;
+	color: #fff;
+}
+
+.song {
+	width: 320px;
+	float: left;
+}
+
+.song:hover {
+	background: #0b80c1;
+}
+.song-cover img {
+	width: 60px;
+	height: 60px;
+	margin: 7px;
+	float: left;
+}
+.song-title {
+	line-height: 100%;
+	margin-top: 10px;
+}
+.artist {
+	color: #ccc;
+	display: block;
+	font-size: 12px;
+}
