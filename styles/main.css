@@ -14,7 +14,8 @@ h3,
 h4,
 h5,
 h6,
-ul {
+ul,
+p {
 	margin:  0;
 	padding: 0;
 }
@@ -23,7 +24,7 @@ ul {
 	width: 100%;
 	max-width: 1366px;
 	position: relative;
-	min-height: 32px;
+	max-height: 32px;
 }
 
 .clear {
@@ -267,4 +268,53 @@ ul.list li.duration {
 	color: #ccc;
 	display: block;
 	font-size: 12px;
+}
+
+.footer-controls {
+	width: 1029px;
+	float: right;
+	padding: 22px 25px;
+	box-sizing: border-box; ;
+}
+
+.footer-controls .left {
+	width: 652px;
+	float: left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/*justify-content: space-between;*/
+	align-items: flex-start;
+}
+
+.time-elapsed {
+	margin-right: 24px;
+}
+
+.indicator {
+	width: 572px;
+	margin-right: 24px;
+}
+
+.indicator .eta {
+	display: block;
+	border: 1px solid #fff;
+	margin: 11.5px 0;
+}
+
+.media-icons {
+	list-style: none;
+	height: 25px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.media-icons li {
+	float: left;
+}
+
+.media-icons li.hover .fa {
+	color: #000;
 }
